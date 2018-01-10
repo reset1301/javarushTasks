@@ -1,7 +1,7 @@
 package com.javarush.task.task18.task1828;
 
 /* 
-Прайсы 2 Git
+Прайсы 2 Git2
 */
 
 public class Solution {
