@@ -1,6 +1,6 @@
 package com.javarush.task.task12.task1215;
 
-/* 
+/*  ааа
 Кошки не должны быть абстрактными!
 */
 
