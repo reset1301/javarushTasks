@@ -17,8 +17,10 @@ public class Solution {
         System.setOut(stream1);
         testString.printSomething();
         System.setOut(stream);
+        stream.close();
         String s=arrayOutputStream.toString().replaceAll("te","??");
         System.out.println(s);
+
     }
 
     public static class TestString {
