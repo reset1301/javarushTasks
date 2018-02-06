@@ -21,8 +21,6 @@ public class Hippodrome {
             print();
             Thread.sleep(200);
         }
-        Object o = new Object();
-        o.
     }
 
     public void move() {
