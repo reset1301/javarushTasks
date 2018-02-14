@@ -76,5 +76,6 @@ public class Hippodrome {
         }
         game.run();
         game.printWinner();
+
     }
 }
