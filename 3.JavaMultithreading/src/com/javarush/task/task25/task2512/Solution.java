@@ -51,9 +51,9 @@ public class Solution implements Thread.UncaughtExceptionHandler {
                     0
             };
             inn[9] = (inn[0] * crc[0] + inn[1] * crc[1] + inn[2] * crc[2] + inn[3] * crc[3] + inn[4] * crc[4]
-                    + inn[5] * crc[5] + inn[6] * crc[6] + inn[7] * crc[7] + inn[8] * crc[8]) % 11;
-            if (inn[9] == 10)
-                inn[9] = 0;
+                    + inn[5] * crc[5] + inn[6] * crc[6] + inn[7] * crc[7] + inn[8] * crc[8]) % 11%10;
+//            if (inn[9] == 10)
+//                inn[9] = 0;
             int kpp = (int) (Math.random() * (1000000000 - 100000000) + 100000000);
 //        System.out.println(kpp);
             bw.write(kpp + ",");
