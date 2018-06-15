@@ -1,9 +1,4 @@
-﻿#############
-## Idea
-#############
-target/
-.idea/
+﻿.idea/
 .idea
 .repository/
-
 /out/
