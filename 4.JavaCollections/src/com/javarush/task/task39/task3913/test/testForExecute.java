@@ -4,6 +4,7 @@ import com.javarush.task.task39.task3913.Event;
 import com.javarush.task.task39.task3913.LogParser;
 import com.javarush.task.task39.task3913.Status;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.nio.file.Paths;
@@ -14,61 +15,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class testForExecute {
-//    @Test
-//    @Ignore
-//    public void testQuery() throws ParseException {
-//        String s;
-//        Set<Object> result = new HashSet<>();
-//        Set<Object> expected = new HashSet<>();
-//        LogParser parser = new LogParser(Paths.get("c:/111/"));
-//        test1();
-//
-//        test2();
-//
-//        t3();
-//
-//        t4();
-//
-//        t5();
-//
-//        t6();
-//
-//        t7();
-//
-//        t8();
-//
-//        t9();
-//
-//        t10();
-//
-//        t11();
-//
-//        t12();
-//
-//        t13();
-//
-//        t14();
-//
-//        t15();
-//
-//        t16();
-//
-//        t17();
-//
-//        t18();
-//
-//        t19();
-//
-//        t20();
-//
-//    }
+    LogParser parser = new LogParser(Paths.get("c:/111/123"));
 
     @Test
     public void t20() {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get status for event = \"SOLVE_TASK\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -85,7 +39,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get status for date = \"30.01.2014 12:56:22\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -101,7 +55,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get status for user = \"Amigo\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -117,7 +71,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get status for ip = \"192.168.100.2\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -134,7 +88,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get event for status = \"OK\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -152,7 +106,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get event for date = \"30.01.2014 12:56:22\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -169,7 +123,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get event for user = \"Amigo\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -182,7 +136,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get event for ip = \"192.168.100.2\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -199,7 +153,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get date for status = \"OK\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -218,7 +172,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get date for event = \"SOLVE_TASK\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -236,7 +190,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get date for user = \"Amigo\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -249,7 +203,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get date for ip = \"192.168.100.2\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -267,7 +221,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get user for status = \"OK\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -285,7 +239,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get user for event = \"SOLVE_TASK\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -302,7 +256,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get user for date = \"30.01.2014 12:56:22\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -319,7 +273,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get user for ip = \"192.168.100.2\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -336,7 +290,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get ip for status = \"OK\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -355,7 +309,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get ip for event = \"SOLVE_TASK\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -372,7 +326,7 @@ public class testForExecute {
         String s;
         Set<Object> result = new HashSet<>();
         Set<Object> expected = new HashSet<>();
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         s = "get ip for date = \"30.01.2014 12:56:22\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";
         result = parser.execute(s);
         expected.clear();
@@ -386,7 +340,7 @@ public class testForExecute {
 
     @Test
     public void test1() {
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+//        LogParser parser = new LogParser(Paths.get("c:/111/"));
         String s;
         Set<Object> result;
         s = "get ip for user = \"Amigo\" and date between \"11.12.2013 10:11:15\" and \"05.01.2021 20:22:00\"";

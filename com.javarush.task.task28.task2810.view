@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Вакансии</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>City</th>
+        <th>Company Name</th>
+        <th>Salary</th>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Senior Java Engineer</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ООО RevJet</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Senior Java Engineer</a></td>
+        <td class="city">Киев</td>
+        <td class="companyName">ООО RevJet</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Senior Java Developer/ElectricAccelerator</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ИП ElectricCloud</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Middle C++ Developer (GameDev)</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ООО Nordcurrent Odessa</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Full stack Web Developer / Javascript, PHP</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ИП ElectricCloud</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Middle Automation QA (Python)</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">Luxoft</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">System administrator with English</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">Luxoft</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Senior Cloud DevOps</a></td>
+        <td class="city">Киев, Политехнический институт</td>
+        <td class="companyName">Инфопульс</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Cloud DevOps Engineer</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">Инфопульс</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Junior Java Developer (Ad Network)</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ИП MobsterAgency</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Senior Ruby on Rails Developer (product company)</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">Livegenic</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Middle QA Automation Engineer</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ООО Continuum</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Senior Java Developer / SaaS</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ИП ElectricCloud</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Middle QA Engineer</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ООО Continuum</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Senior Back-end Java Developer</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">Slidepresenter GmbH</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">PHP Middle+/Senior Developer (Ad Network)</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ИП MobsterAgency</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Junior QA Automation engineer</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ИП ElectricCloud</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Middle Machine Learning Engineer</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ИП Gallantra Business Intelligence</td>
+        <td class="salary">1 500-3 000 USD</td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">AI / Machine Learning Developer</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">Livegenic</td>
+        <td class="salary"></td>
+    </tr><tr class="vacancy">
+        <td class="title"><a href="https://hh.ua">Data Science specialist</a></td>
+        <td class="city">Одесса</td>
+        <td class="companyName">ООО E-book Applications</td>
+        <td class="salary">2 000-3 000 USD</td>
+    </tr></table>
+</body>
+</html>

@@ -3,6 +3,8 @@ package com.javarush.task.task39.task3913;
 import java.nio.file.Paths;
 import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Set;
 
 public class Solution {
@@ -34,7 +36,7 @@ public class Solution {
 ////        System.out.println(logParser.getNumberOfUniqueIPs(null, new Date()));
 //        Event event = Event.DONE_TASK;
 //        System.out.println("DONE_TASK".equals(event.toString()));
-        LogParser parser = new LogParser(Paths.get("c:/111/"));
+        LogParser parser = new LogParser(Paths.get("c:/111/123"));
 //        Set<Object> set = parser.execute("get ip for user = \"Amigo\"");
 //        Set<Object> set = parser.execute("get user for event = \"LOGIN\"");
 //        Set<Object> set = parser.execute("get date for event = \"LOGIN\"");
@@ -59,6 +61,7 @@ public class Solution {
 //            arrayList.add(i, value[i].contains("\"") ? 1 : 0);
 //            System.out.print(arrayList.get(i) +" ");
         }
+        
         System.out.println(count);
         String value2="";
         String befStr = "";
